@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const EmployeeModel = require("./Employee");
-const Order = require("./order");
+const Order = require("./Order");
 
 
 const app = express();
