@@ -57,7 +57,7 @@ app.post("/placeOrder", async (req, res) => {
 
     await order.save();
 
-    res.json({ message: "Order placed successfully!" });
+    res.json({ message: "Order has placed successfully!" });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Internal Server Error" });
